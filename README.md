@@ -171,7 +171,7 @@ var y = {
     'order': 'row-major'
 };
 
-// Initialize ndarray descriptors representing sub-array views:
+// Initialize ndarray descriptors representing subarray views:
 var views = [
     {
         'dtype': x.dtype,
@@ -199,7 +199,7 @@ var views = [
     }
 ];
 
-// Resolve input/output strategies when iterating over sub-array views:
+// Resolve input/output strategies when iterating over subarray views:
 var strategyX = strategy( views[ 0 ] );
 var strategyY = strategy( views[ 1 ] );
 
@@ -241,11 +241,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -292,8 +287,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/ndarray-base-kernels-generic-unary-strided1d-strategy/tree/esm
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-kernels-generic-unary-strided1d-strategy/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-kernels-generic-unary-strided1d-strategy/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-kernels-generic-unary-strided1d-strategy/main/LICENSE
 
 [@stdlib/ndarray/base/descriptor]: https://github.com/stdlib-js/ndarray-base-descriptor
 

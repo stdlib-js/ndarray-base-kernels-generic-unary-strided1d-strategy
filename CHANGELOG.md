@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`4e39b10`](https://github.com/stdlib-js/stdlib/commit/4e39b1060314ca789683f8dda79610d714f4d5e7) - **docs:** update spelling _(by Athan Reines)_
 -   [`eb27106`](https://github.com/stdlib-js/stdlib/commit/eb271061b568c3f49f2f9b05e41786e3fa20063f) - **docs:** update description _(by Athan Reines)_
 -   [`648628d`](https://github.com/stdlib-js/stdlib/commit/648628d7d9d28a3ef21c0dbbfda123b4c440eb50) - **docs:** update descriptions _(by Athan Reines)_
 -   [`86774c6`](https://github.com/stdlib-js/stdlib/commit/86774c66302ff35ffec5222e60ac6f6606f261a8) - **docs:** update descriptions _(by Athan Reines)_
