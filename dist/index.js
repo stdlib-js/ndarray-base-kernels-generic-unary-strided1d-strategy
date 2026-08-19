@@ -1,34 +1,5 @@
+"use strict";var h=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(t){throw (e=0, t)}};};var y=h(function(O,c){
+var m=require('@stdlib/ndarray-base-iteration-order/dist'),d=require('@stdlib/ndarray-base-minmax-view-buffer-index/dist').assign,q=require('@stdlib/ndarray-base-ndarraylike2descriptor/dist'),v=require('@stdlib/ndarray-base-assign/dist'),p=require('@stdlib/ndarray-base-descriptor/dist'),g=require('@stdlib/ndarray-base-empty/dist');function f(r){return r}function l(r){return p(r.dtype,r.data,[1],[0],r.offset,r.order)}function b(r,e){var t=[r.shape[e]],u=[r.strides[e]];return n;function n(i){return p(i.dtype,i.data,t,u,i.offset,i.order)}}function W(r,e){var t,u,n,i;return e===1?u=0:u=1,t=[0,0],n=[r],i=[e],o;function o(a){return d(a.shape,a.strides,a.offset,t),p(a.dtype,a.data,n,i,t[u],a.order)}}function k(r,e){var t=p(e.dtype,e.data,[r],[1],e.offset,e.order);return u;function u(n){return v([n,e]),t}}function z(r){return e;function e(t){return v([r,t]),t}}function B(r){var e,t,u,n,i,o,a,s;if(o=r.shape,t=o.length,t===0)return{input:l,output:f};if(t===1)return{input:f,output:f};for(n=1,a=0,s=0;s<t;s++)o[s]===1&&(a+=1),n*=o[s];if(a===t-1){for(s=0;s<t&&o[s]===1;s++);return{input:b(r,s),output:f}}return i=m(r.strides),i!==0&&(u=d(o,r.strides,r.offset,[0,0]),n===u[1]-u[0]+1)?{input:W(n,i),output:f}:(e=q(g(r.dtype,r.shape,r.order)),{input:k(n,e),output:z(e)})}c.exports=B
+});var F=y();module.exports=F;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Return an object containing methods for reshaping an ndarray as a one-dimensional strided array view.
-*
-* @module @stdlib/ndarray-base-kernels-generic-unary-strided1d-strategy
-*
-* @example
-* var Float64Array = require( '@stdlib/array-float64' );
-* var strategy = require( '@stdlib/ndarray-base-kernels-generic-unary-strided1d-strategy' );
-*
-* var x = {
-*     'dtype': 'float64',
-*     'data': new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] ),
-*     'shape': [ 1 ],
-*     'strides': [ 1 ],
-*     'offset': 0,
-*     'order': 'row-major'
-* };
-*
-* var out = strategy( x );
-* // returns {...}
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map

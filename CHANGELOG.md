@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-18)
+## Unreleased (2026-08-19)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`dcb03da`](https://github.com/stdlib-js/stdlib/commit/dcb03da17f986abc96d0c3c913de9b602b5277a6) - **chore:** clean-up [(#14380)](https://github.com/stdlib-js/stdlib/pull/14380) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4e39b10`](https://github.com/stdlib-js/stdlib/commit/4e39b1060314ca789683f8dda79610d714f4d5e7) - **docs:** update spelling _(by Athan Reines)_
 -   [`eb27106`](https://github.com/stdlib-js/stdlib/commit/eb271061b568c3f49f2f9b05e41786e3fa20063f) - **docs:** update description _(by Athan Reines)_
 -   [`648628d`](https://github.com/stdlib-js/stdlib/commit/648628d7d9d28a3ef21c0dbbfda123b4c440eb50) - **docs:** update descriptions _(by Athan Reines)_
@@ -39,9 +40,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
